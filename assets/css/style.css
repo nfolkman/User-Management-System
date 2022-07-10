@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap');
+
+
+:root{
+   --dark: #3d3b3b;
+   --light: #ECECEC;
+   --border: #d0d2d3c4;
+   --border-btn: #edf2f4;
+}
+
+
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+a{
+   text-decoration: none;
+   font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.container{
+   max-width: 1024px;
+   margin: auto;
+   
+}
+
+
+.nav-brand{
+   font-size: 1.5em;
+   font-weight: bold;
+}
+
+.d-flex{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.justify-between{
+   justify-content: space-between;
+}
+
+.text-center{
+   text-align: center;
+}
+
+.border-shadow{
+   border: 1.5px solid var(--border-btn);
+   border-radius: 7.5px;
+   box-shadow:
+  1.4px 1.3px 11.3px rgba(0, 0, 0, 0.008),
+  3.3px 3.2px 27.1px rgba(0, 0, 0, 0.012),
+  6.3px 6px 51.1px rgba(0, 0, 0, 0.015),
+  11.2px 10.7px 91.1px rgba(0, 0, 0, 0.018),
+  20.9px 20.1px 170.5px rgba(0, 0, 0, 0.022),
+  50px 48px 408px rgba(0, 0, 0, 0.03);
+}
+
+.text-dark{
+   color: var(--dark)
+}
+
+div div .text-dark{
+   color: #282727;
+}
+
+
+.inline{
+   display: inline-block;
+}
+
+.text-light{
+   color:var(--light)
+}
+
+.text-gradient{
+   background: linear-gradient(to right, #183153,#8fd7f99d);
+   -webkit-background-clip: text;
+   background-clip: text;
+   -webkit-text-fill: transparent;
+}
+
+
+#header nav {
+   background-color: #8fd7f9d6;
+   padding: 1em 0;
+   width: 100%;
+}
+
+
+#site-main{
+   margin-top: 6em;
+   font-family: 'Source Sans Pro', sans-serif;
+}
+
+#site-main .container .box-nav > a{
+   font-size: 1em;
+   padding: .5em 1em;
+}
+
+
+#site-main .container form{
+   margin: 2em 0;
+}
+
+table{
+   border-spacing: 0px;
+   width: 100%;
+}
+
+.table td, .table th{
+   padding: .75em;
+   vertical-align: top;
+   text-align: center;
+   border-top: 1px solid var(--border);
+}
+
+
+.table td > a.btn{
+   padding: .3em 1em;
+   font-size: 1.1em;
+   margin: 0 .2em;
+}
+
+.table tr:hover{
+   background-color: #8fd7f99d;
+}
+
+.table tr:hover td>a{
+   box-shadow: none;
+}
+
+
+.table .thead-dark th{
+   color: #fff;
+   background-color: var(--dark);
+   border-color: #32383e;
+}
