@@ -1,12 +1,13 @@
 # User-Management-System
 
-![Screenshot (251)](https://user-images.githubusercontent.com/98185555/178175130-d3f8aaed-f266-4fa1-8201-baa4ce5adf7b.png)
+![Screenshot (259)](https://user-images.githubusercontent.com/98185555/178410342-1c4eb84d-c71a-4bf6-a863-fa2ba532db5f.png)
+
 
 
 
 <h3> What's the big idea?</h3>
 
-This application will function as a full stack application that has the ability to take and store User profile information, as well as update and delete said information when the need arises. The goal is to create a system of high utility that is accessible to any user population.
+This application functions as a full stack application that has the ability to take and store User profile information, as well as update and delete said information when the need arises. The goal is to create a system of high utility that is accessible to any user population.
 
 <h3> Tools Used </h3>
 
