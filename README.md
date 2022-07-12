@@ -1,7 +1,7 @@
 # User-Management-System
 
-![Screenshot (259)](https://user-images.githubusercontent.com/98185555/178410342-1c4eb84d-c71a-4bf6-a863-fa2ba532db5f.png)
 
+![Screenshot (260)](https://user-images.githubusercontent.com/98185555/178413084-2edd787a-dcde-49a4-a0aa-4dde74e9fc89.png)
 
 
 
