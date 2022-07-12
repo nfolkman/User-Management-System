@@ -3,11 +3,15 @@
 
 :root{
    --dark: #3d3b3b;
-   --light: #7a7a7a;
+   --light: #646464;
    --border: #d0d2d3c4;
    --border-btn: #edf2f4;
 }
 
+body{
+   background-color: #f7f8fa;
+   background-image: linear-gradient(315deg, #feffff 0%, #fcfafaee 50%);
+}
 
 *{
    padding: 0;
@@ -18,6 +22,7 @@
 a{
    text-decoration: none;
    font-family: 'Source Sans Pro', sans-serif;
+   color: #3068c7;
 }
 
 
@@ -76,10 +81,7 @@ div div .text-dark{
 }
 
 .text-gradient{
-   background: linear-gradient(to right, #183153,#8fd7f99d);
-   -webkit-background-clip: text;
-   background-clip: text;
-   -webkit-text-fill: transparent;
+   color: #3068c7;
 }
 
 
@@ -125,7 +127,7 @@ table{
 }
 
 .table tr:hover{
-   background-color: #8fd7f99d;
+   background-color: #8fd7f977;
 }
 
 .table tr:hover td>a{
